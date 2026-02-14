@@ -1,7 +1,7 @@
 import requests
 import csv
 
-API_KEY = "AIzaSyDejS-pbufYh2vyTI-N6QXJxwJ7uFvSsqw"
+API_KEY = "API_KEY"
 URL = "https://places.googleapis.com/v1/places:searchText"
 
 headers = {
@@ -69,3 +69,4 @@ with open(filename, "w", newline="", encoding="utf-8") as f:
     writer.writerows(results)
 
 print(f"✅ {len(results)} cluburi UNICE salvate în {filename}")
+
